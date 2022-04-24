@@ -14,13 +14,16 @@ const Navbar = () => {
           />
         </div>
         <Link href='/'>
-          <a>Home</a>
+          <a className='btn'>Home</a>
         </Link>
         <Link href='/about'>
-          <a>About</a>
+          <a className='btn'>About</a>
         </Link>
         <Link href='/spartans'>
-          <a>Spartan Listing</a>
+          <a className='btn'>Spartan Listing</a>
+        </Link>
+        <Link href='/spartans/history'>
+          <a className='btn'>Spartan History</a>
         </Link>
       </nav>
     </div>

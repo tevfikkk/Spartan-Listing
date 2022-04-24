@@ -1,4 +1,6 @@
 import styles from '../../styles/Spartans.module.css'
+import Link from 'next/link'
+import Head from 'next/head'
 
 interface Spartans {
   spartans: any
@@ -16,13 +18,18 @@ export const getStaticProps = async () => {
 const Spartans = ({ spartans }: Spartans) => {
   return (
     <div>
+      <Head>
+        <title>Spartan List | Spartans</title>
+        <meta name='keywords' content='spartans' />
+      </Head>
+
       <h1>All Spartans</h1>
       {spartans.map((spartan: any) => (
-        <div key={spartan.id}>
+        <Link href={`/spartans/${spartan.id}`} key={spartan.id}>
           <a className={styles.single}>
             <h3>{spartan.name}</h3>
           </a>
-        </div>
+        </Link>
       ))}
     </div>
   )

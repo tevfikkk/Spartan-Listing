@@ -5,6 +5,7 @@ body {
   color: #333;
   font-family: 'Nunito';
 }
+
 a {
   color: #333;
   text-decoration: none;
@@ -43,4 +44,64 @@ footer {
 .not-found a {
   color: rgb(79, 208, 240);
   text-decoration: underline;
+}
+
+.btn {
+  box-shadow: inset 0px -1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 9px 13px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #ffffff;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  background-color: #e9e9e9;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.img {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_original%2Far5jz.jpg&f=1&nofb=1');
+}
+
+.nav-back {
+  box-shadow: inset 0px 0px 15px 3px #23395e;
+  background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+  background-color: #2e466e;
+  border-radius: 17px;
+  border: 1px solid #1f2f47;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  width: 850px;
+  height: 90px;
+}
+
+.global-bg {
+  box-shadow: inset 0px 1px 0px 0px #576a92;
+  background: linear-gradient(to bottom, #324d86 5%, #2a4786 100%);
+  background-color: #445caa;
+  border: 1px solid #2f49a7;
+  display: inline-block;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  justify-content: center;
+  width: 850px;
+  height: 500px;
 }

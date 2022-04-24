@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 
 interface Layout {
   children: any
+  image?: any
 }
 
 const Layout = ({ children }: Layout) => {
