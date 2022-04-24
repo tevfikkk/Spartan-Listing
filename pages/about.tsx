@@ -1,8 +1,14 @@
+import Head from 'next/head'
 import Link from 'next/link'
 
 const about = () => {
   return (
     <div>
+      <Head>
+        <title>Spartan List | About</title>
+        <meta name='keywords' content='spartans' />
+      </Head>
+
       <h1>About Page</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
