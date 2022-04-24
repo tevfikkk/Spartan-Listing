@@ -26,10 +26,10 @@ const Home: NextPage = () => {
         leading up to and during the Human-Covenant War. The notion of creating
         supersoldiers first arose as a plan to enhance normal human soldiers
         into powerfully augmented special operations commandos. Initially the
-        three separate programs were humanity's various attempts to create the
+        three separate programs were humanitys various attempts to create the
         perfect soldiers, in order to patrol the colonies, protect civilian and
         government populations, crush uprisings in their infancy and ensure
-        others don't rise up as a result. The Spartan soldiers of the UNSC are
+        others dont rise up as a result. The Spartan soldiers of the UNSC are
         named after the Spartans of Ancient Greece, specifically during the time
         of the Persian invasion led by Xerxes I. The wars between invading
         Persians and defending Greeks would be known as the Greco-Persian Wars,
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         the command of Leonidas I, held back a significantly larger force of
         Persian soldiers. All of the Spartans were eventually killed, but they
         successfully killed 20,000 Persians (according to Herodotus), and bought
-        the Greeks time to prepare a better defense for Greece. The Spartans'
+        the Greeks time to prepare a better defense for Greece. The Spartans
         formidable resilience resulted from their rigorous training in the
         agoge, which started when they reached the age of 7.
       </p>
